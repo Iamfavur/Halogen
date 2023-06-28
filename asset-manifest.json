@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/halogen/static/css/main.742b2780.css",
+    "main.js": "/halogen/static/js/main.eddb81a0.js",
+    "index.html": "/halogen/index.html",
+    "main.742b2780.css.map": "/halogen/static/css/main.742b2780.css.map",
+    "main.eddb81a0.js.map": "/halogen/static/js/main.eddb81a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.742b2780.css",
+    "static/js/main.eddb81a0.js"
+  ]
+}
