@@ -1,0 +1,74 @@
+:root{
+    --darkblue:rgb(27, 27, 120);
+    --darkpink:rgb(153, 0, 89);
+}
+
+
+.explore{
+    background-color: rgb(231, 242, 250);
+    padding: 50px 50px 0 50px
+}
+
+.explore img{
+    width:45%;
+}
+
+.explore-main-div{
+    display:flex;
+}
+
+.explore-main-div div{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-main-div div h2{
+    color:var(--darkblue);
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.explore-main-div div h1{
+    color:var(--darkblue);
+    font-size: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.explore-main-div div p{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:var(--darkblue);
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.explore-main-div div button{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    background-color: gold;
+    padding:15px 30px 15px 30px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+@media screen and (max-width:769px) {
+    .explore-main-div{
+        flex-direction: column;
+    }
+    .explore img{
+        width:100%;
+    }
+    .explore{
+        padding: 50px 50px 50px 50px;
+    }
+}

@@ -1,0 +1,103 @@
+:root{
+    --darkblue:rgb(27, 27, 120);
+    --darkpink:rgb(153, 0, 89);
+}
+
+.Safety{
+    padding: 50px 100px;
+}
+
+
+
+.SafetyFirst{
+text-align: center;
+}
+
+.SafetyFirst h1{
+    font-size: 45px;
+    color:var(--darkblue);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.SafetyFirst p{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.SafetyFirstDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.SafetySub{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .SafetySub i{
+    margin-top: 40px;
+    background-color: var(--darkblue);
+    color: white;
+    font-size: 20px;
+    padding:30px 30px 0px 30px;
+    border-radius: 100000px;
+} */
+
+.circle-icon {
+    margin-top: 40px;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--darkblue);
+    text-align: center;
+    line-height: 50px;
+}
+  
+.circle-icon i {
+    color: white;
+    font-size: 20px;
+}
+
+.gold-bg{
+    background-color:gold;
+}
+
+.SafetyMin{
+    width:45%;
+}
+
+
+.SafetySub{
+    margin-top:50px;
+}
+
+.SafetyText{
+    padding: 20px;
+}
+
+.SafetyText h5{
+    font-size: 23px;
+    color:var(--darkblue);
+    font-weight:500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.SafetyText p{
+    font-size: 18px;
+    word-spacing: 13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width:769px) {
+    .SafetyFirstDiv{
+        flex-direction: column;
+    }
+
+    .Safety{
+        padding: 20px 20px;
+    }
+    .SafetyMin{
+        width:95%;
+    }
+}

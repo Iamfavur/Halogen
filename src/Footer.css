@@ -1,0 +1,33 @@
+:root{
+    --darkblue:rgb(27, 27, 120);
+    --darkpink:rgb(153, 0, 89);
+}
+
+
+.Footer{
+    background-color:darkblue ;
+    color:white;
+    padding:50px 50px 200px 50px;
+}
+
+
+.footer-main-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-main-div ul{
+list-style-type: none;
+}
+
+@media screen and (max-width:769px) {
+    .footer-main-div{
+        flex-direction: column;
+    }
+    .footer-main-div div{
+        padding-top: 30px;
+    }
+    .footer-main-div div h1{
+        letter-spacing: 5px;
+    }
+}

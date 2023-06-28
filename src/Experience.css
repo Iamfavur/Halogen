@@ -1,0 +1,64 @@
+:root{
+    --darkblue:rgb(27, 27, 120);
+    --darkpink:rgb(153, 0, 89);
+}
+
+.experience{
+    background-color: rgb(231, 242, 250);
+    padding: 70px 50px 100px 50px;
+}
+
+.experience-main-div{
+    color:var(--darkblue);
+}
+
+
+.experience-main-div h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.experience-sub-div{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.experience-sub-div div{
+    width:32%;
+}
+
+.experience-sub-div div h4{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.experience-sub-div div p{
+    color:grey;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    word-spacing: 5px;
+    line-height: 35px;
+
+}
+
+@media screen and (max-width:769px) {
+    .experience-sub-div{
+        flex-direction: column;
+    }
+    .experience-sub-div div{
+        width:100%;
+        padding-bottom: 50px;
+    }
+    .experience-main-div h1{
+        font-size: 30px;
+    }
+    .experience-sub-div div p{
+        color:grey;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 10px;
+        word-spacing: 5px;
+        line-height: 30px;
+    
+    }
+}
